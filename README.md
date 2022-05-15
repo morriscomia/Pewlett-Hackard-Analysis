@@ -2,7 +2,7 @@
 
 # Purpose of our project
 
-The purpose of our project is to determine the number of retiring employees by title and identify which employees are eligible to to participate in the mentorship program. Our retiring employees by title information will show the titles of all employees born between January, 1 1952 and December, 31 1955. First we created a query that retrieved the emp_no, first_name and last_name columns from the employees table and retrieved the title,from_date and to_date columns of the titles table in our pewlett-hackard query. We joined both of these table on the primary key,filtered the data by birth_date and put the information into a new table. For the next two parts of deliverable 1 we created a unique_titles table to find the first occurance of the emp_no in our new table by using the DISTINCT ON function and for the last part of the deliverable we did ORDER BY COUNT to show us the total number of each title from our unique_titles table that we created. The second deliverable we wrote a query that retrieved columns from our employees and dept_emp table, filtered data on current employees born in 1965 then ordered the table by emp_no.
+The purpose of this analysis was to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. We used pgAdmin/SQL to create and join different csv files in order to get a clearer picture of the "silver tsunami". We also used these tables and the data to find out which employees would be eligible for a mentorship program, so that there is a replacement plan in place..
 
 # The Results
 
